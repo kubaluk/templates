@@ -1,13 +1,12 @@
 #pragma once
 #include <iostream>
 
-template<class typ>
 class Point {
 private:
-	typ x;
-	typ y;
+	int x;
+	int y;
 public:
-	Point(typ _x, typ _y) :x(_x), y(_y){}
+	Point(int _x, int _y) :x(_x), y(_y){}
 	void print() {
 		std::cout << "x: " << x << std::endl;
 		std::cout << "y: " << y << std::endl;
